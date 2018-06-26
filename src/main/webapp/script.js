@@ -7,7 +7,7 @@ $(document).ready(function () {
            alert("Array is empty!")
         } else {
             $.ajax({
-                url: '/ask',
+                url: '/sort',
                 method: 'POST',
                 data: {arrayText: value}
             }).done(function (data) {

@@ -11,7 +11,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.Arrays;
 
-@WebServlet(urlPatterns = "/ask")
+@WebServlet(urlPatterns = "/sort")
 public class MyServlet extends HttpServlet {
 
     private static final String CONTENT_TYPE = "Content-Type";
